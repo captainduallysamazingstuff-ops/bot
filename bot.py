@@ -7,7 +7,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     # Replace 'YOUR_TOKEN' with the one from BotFather
-    app = ApplicationBuilder().token("YOUR_TOKEN").build()
+    app = ApplicationBuilder().token("8891028683:AAGZEYW8QWwablBtH-FkER5v9btnAuzbLiY").build()
     app.add_handler(CommandHandler("start", start))
     print("Agent heartbeat active...")
     app.run_polling()
